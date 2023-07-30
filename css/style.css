@@ -27,8 +27,64 @@ body {
   background-color: hsl(0, 0, 100%);
   border-radius: 20px;
   box-shadow: 5px 7px 20px hsl(241, 100%, 89%);
-}
-.right-section {
+
+  .left-section {
+    width: 250px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(
+      to bottom,
+      hsl(252, 100%, 67%),
+      hsl(241, 81%, 54%)
+    );
+
+    & h4 {
+      color: hsl(241, 100%, 89%);
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .fitness {
+      background-image: linear-gradient(
+        to bottom,
+        hsla(256, 72%, 46%, 1),
+        hsla(241, 72%, 46%, 0)
+      );
+      border-radius: 150px;
+      width: 120px;
+      height: 120px;
+      margin: 20px auto;
+      display: flex;
+      flex-direction: column;
+      place-items: center;
+      place-content: center;
+      padding: 10px;
+
+      & h1 {
+        font-size: 50px;
+        font-weight: 800;
+      }
+      & h5 {
+        color: hsl(241, 100%, 89%);
+        font-size: 16px;
+      }
+    }
+    & h3 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    & p {
+      font-weight: 500;
+      color: hsl(241, 100%, 89%);
+      font-size: 16px;
+      padding: 0 10px;
+      margin: 12px 0 15px;
+    }
+  }
+
+  .right-section {
     width: 320px;
     padding: 30px 30px;
 
@@ -38,9 +94,7 @@ body {
       font-weight: 700;
     }
 
-  
-  }
-  .reaction {
+    .reaction {
       display: flex;
       justify-content: space-between;
       background-color: rgba(255, 85, 85, 0.103);
@@ -158,64 +212,8 @@ body {
       border: none;
       border-radius: 50px;
     }
-  .left-section {
-    width: 250px;
-    color: hsl(0, 0%, 100%);
-    text-align: center;
-    padding: 30px 10px;
-    border-radius: 20px;
-    background-image: linear-gradient(
-      to bottom,
-      hsl(252, 100%, 67%),
-      hsl(241, 81%, 54%)
-    );
-
-   
   }
-.left-section h4 {
-      color: hsl(241, 100%, 89%);
-      font-size: 16px;
-      font-weight: 500;
-    }
-
-    
-   .left-section h3 {
-      font-size: 20px;
-      font-weight: 700;
-    }
-   .left-section p {
-      font-weight: 500;
-      color: hsl(241, 100%, 89%);
-      font-size: 16px;
-      padding: 0 10px;
-      margin: 12px 0 15px;
-    }
-  .left-section .fitness {
-      background-image: linear-gradient(
-        to bottom,
-        hsla(256, 72%, 46%, 1),
-        hsla(241, 72%, 46%, 0)
-      );
-      border-radius: 150px;
-      width: 120px;
-      height: 120px;
-      margin: 20px auto;
-      display: flex;
-      flex-direction: column;
-      place-items: center;
-      place-content: center;
-      padding: 10px;
-
-     
-    }
-     .left-section .fitness h1 {
-        font-size: 50px;
-        font-weight: 800;
-      }
-      .left-section .fitness h5 {
-        color: hsl(241, 100%, 89%);
-        font-size: 16px;
-      }
+}
 @media screen and (max-width: 375px) {
   .container {
   display: flex;
