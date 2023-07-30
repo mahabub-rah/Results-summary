@@ -40,26 +40,26 @@ body {
       hsl(241, 81%, 54%)
     );
 
-    & h4 {
+   
+  }
+.left-section h4 {
       color: hsl(241, 100%, 89%);
       font-size: 16px;
       font-weight: 500;
     }
 
     
-    & h3 {
+   .left-section h3 {
       font-size: 20px;
       font-weight: 700;
     }
-    & p {
+   .left-section p {
       font-weight: 500;
       color: hsl(241, 100%, 89%);
       font-size: 16px;
       padding: 0 10px;
       margin: 12px 0 15px;
     }
-  }
-
   .left-section .fitness {
       background-image: linear-gradient(
         to bottom,
@@ -76,15 +76,16 @@ body {
       place-content: center;
       padding: 10px;
 
-      & h1 {
+     
+    }
+     .left-section .fitness h1 {
         font-size: 50px;
         font-weight: 800;
       }
-      & h5 {
+      .left-section .fitness h5 {
         color: hsl(241, 100%, 89%);
         font-size: 16px;
       }
-    }
 
   .right-section {
     width: 320px;
